@@ -1,0 +1,38 @@
+body {
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+.carouselsection{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    text-align: center;
+    margin: 100px;
+    padding: 50px;
+    border-bottom: 3px dotted;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+}
+main div p{
+    text-align: center;
+}
+
+main div button {
+border-radius: 15px;
+  
+}
+
+main div button:hover {
+    box-shadow: 10px 10px 8px black;
+    transition: all 0.2s
+}
