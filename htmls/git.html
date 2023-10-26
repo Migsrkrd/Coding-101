@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Coding 101</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -41,16 +41,64 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" id="srchbtn" type="submit">Search</button>
                 </form>
             </div>
         </div>
     </nav>
-    <h1>WELCOME TO GIT</h1>
+    <section class="info mt-5 m-5">
+        <div class="row">
+            <div class="col-3 items">
+              <nav id="navbar-example3" class="h-100 m-2 p-2 flex-column d-flex align-items-center  pe-4 border-end">
+                <nav class="nav nav-pills flex-column items-2">
+                  <a class="nav-link" href="#commandline">Command Line</a>
+                  <nav class="nav nav-pills flex-column">
+                    <a class="nav-link ms-3 my-1" type="button" href="#item-1-1">Downloading Gitbash</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-2">cd</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-3">ls</a>
+                    <a class="nav-link ms-3 my-1" href="#item-1-4">pwd</a>
+                  </nav>
+                </nav>
+              </nav>
+            </div>
+          
+            <div class="col-8 code">
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+                <div class="infosection">
+                <div id="commandline">
+                  <h4>Command Line</h4>
+                  <p></p>
+                </div>
+                <div id="item-1-1" class="box">
+                  <h5>Downloading GitBash</h5>
+                  <p>Follow the link provided here to get instructions on how to download gitBash onto your windows computer. <a href="https://git-scm.com/downloads">GitBash Download</a></p>
+                </div>
+                <div id="item-1-2" class="box">
+                  <h5>cd</h5>
+                  <p>CD translates to "Change Directory". Placing this before a location within your local device will place your current direectory into the path of the one you are searching for. </p>
+                  <img src="../pictures/Screenshot 2023-10-25 215803.png" alt="gitbash cd command">
+                </div>
+                <div id="item-1-3" class="box">
+                  <h5>ls</h5>
+                  <p>use the ls command to show list of files under your current directory</p>
+                  <img src="../pictures/Screenshot 2023-10-25 220404.png" alt="ls image">
+                </div>
+                <div id="item-1-4" class="box">
+                    <h5>pwd</h5>
+                    <p>use the ls command to print your local directory</p>
+                    <img src="../pictures/Screenshot 2023-10-25 230629.png" alt="pwd image">
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="../index.js"></script>
 </body>
 
 </html>
